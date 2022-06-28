@@ -1,2 +1,4 @@
 # Flask-AdvancedRESTful_API
-This is an Advanced Flask API that has 4 operations: GET, POST, DELETE and PUT
+This is an Advanced Flask API that has 4 operations: GET, POST, DELETE and PUT <br> Here, I have defined an empty items list and then I performed the GET, POST, DELETE and PUT operations directly from Postman through <b><i>Content-Type - application/json</i></b> data. In this app, I have also provided error message codes that shows whether the data has been Created(201) and Retrieved(200) successfully or else provide a Not Available(404) Error.
+
+I have first defined all the basic code in <a href="">app.py</a>. The basic difference between this Advanced API and the <a href="">Simple API</a> is that we are <i>importing Resource, Api, reqparse from flask_restful</i> library. Then I added Flask-JWT Authentication to the code which refers to the <a href="">security.py</a> which inturn refers to the <a href="">user.py</a> file that is used to define the <b>id</b>, <b>username</b> and <b>password</b> of a User.
